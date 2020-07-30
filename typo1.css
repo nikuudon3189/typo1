@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+@keyframes game{
+	0%{
+	   fill: #e74c3c;
+	  background-color: #181818;
+	}
+	20%{
+		fill: #f1c40f;
+		background-color: #494949; 
+	}
+	40%{
+		fill: #1abc9c;
+		background-color: #181818;
+	}
+	60%{
+		fill:  #3498db;
+		background-color: #494949;
+	}
+	80%{
+		fill: #9b59b6;
+		background-color: #181818;
+	}
+	100%{
+		fill: #e74c3c;
+		background-color: #494949;
+	}
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	animation: game 5s infinite;
+	
+}
+#r1{
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+.cls-1{
+	animation: game 5s infinite;
+}
